@@ -26,9 +26,15 @@ namespace Bookstore.Models
         public string ISBN { get; set; }
 
         [Required]
-        public string ClassOrCategory { get; set; }
+        public string Classification { get; set; }
+        
+        [Required]
+        public string Category { get; set; }
 
         [Required]
         public float Price { get; set; }
+
+        [Required]
+        public int NumPages { get; set; }
     }
 }

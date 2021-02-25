@@ -29,8 +29,10 @@ namespace Bookstore.Models
                         Author = "Victor Hugo",
                         Publisher = "Signet",
                         ISBN = "978-0451419439",
-                        ClassOrCategory = "Fiction, Classic",
-                        Price = 9.95F
+                        Classification = "Fiction",
+                        Category = "Classic",
+                        Price = 9.95F,
+                        NumPages = 1488
                     },
 
                     new Book //book 2
@@ -39,8 +41,10 @@ namespace Bookstore.Models
                         Author = "Doris Kearns Goodwin",
                         Publisher = "Simon & Schuster",
                         ISBN = "978-0743270755",
-                        ClassOrCategory = "Non-Fiction, Biography",
-                        Price = 14.58F
+                        Classification = "Non-Fiction",
+                        Category = "Biography",
+                        Price = 14.58F,
+                        NumPages = 944
                     },
 
                     new Book //book 3
@@ -49,8 +53,10 @@ namespace Bookstore.Models
                         Author = "Alice Schroeder",
                         Publisher = "Bantam",
                         ISBN = "978-0553384611",
-                        ClassOrCategory = "Non-Fiction, Biography",
-                        Price = 21.54F
+                        Classification = "Non-Fiction",
+                        Category = "Biography",
+                        Price = 21.54F,
+                        NumPages = 832
                     },
 
                     new Book //book 4
@@ -59,8 +65,10 @@ namespace Bookstore.Models
                         Author = "Ronal C. White",
                         Publisher = "Random House",
                         ISBN = "978-0812981254",
-                        ClassOrCategory = "Non-Fiction, Biography",
-                        Price = 11.61F
+                        Classification = "Non-Fiction",
+                        Category = "Biography",
+                        Price = 11.61F,
+                        NumPages = 864
                     },
 
                     new Book //book 5
@@ -69,8 +77,10 @@ namespace Bookstore.Models
                         Author = "Laura Hillenbrand",
                         Publisher = "Random House",
                         ISBN = "978-0812974492",
-                        ClassOrCategory = "Non-Fiction, Historical",
-                        Price = 13.33F
+                        Classification = "Non-Fiction",
+                        Category = "Historical",
+                        Price = 13.33F,
+                        NumPages = 528
                     },
 
                     new Book //book 6
@@ -79,8 +89,10 @@ namespace Bookstore.Models
                         Author = "Michael Crichton",
                         Publisher = "Vintage",
                         ISBN = "978-0804171281",
-                        ClassOrCategory = "Fiction, Historical Fiction",
-                        Price = 15.95F
+                        Classification = "Fiction",
+                        Category = "Historical Fiction",
+                        Price = 15.95F,
+                        NumPages = 288
                     },
 
                     new Book //book 7
@@ -89,8 +101,10 @@ namespace Bookstore.Models
                         Author = "Cal Newport",
                         Publisher = "Grand Central Publishing",
                         ISBN = "978-1455586691",
-                        ClassOrCategory = "Non-Fiction, Self-Help",
-                        Price = 14.99F
+                        Classification = "Non-Fiction",
+                        Category = "Self-Help",
+                        Price = 14.99F,
+                        NumPages = 304
                     },
 
                     new Book //book 8
@@ -99,8 +113,10 @@ namespace Bookstore.Models
                         Author = "Michael Abrashoff",
                         Publisher = "Grand Central Publishing",
                         ISBN = "978-1455523023",
-                        ClassOrCategory = "Non-Fiction, Self-Help",
-                        Price = 21.66F
+                        Classification = "Non-Fiction",
+                        Category = "Self-Help",
+                        Price = 21.66F,
+                        NumPages = 240
                     },
 
                     new Book //book 9
@@ -109,8 +125,10 @@ namespace Bookstore.Models
                         Author = "Richard Branson",
                         Publisher = "Portfolio",
                         ISBN = "978-1591847984",
-                        ClassOrCategory = "Non-Fiction, Business",
-                        Price = 29.16F
+                        Classification = "Non-Fiction",
+                        Category = "Business",
+                        Price = 29.16F,
+                        NumPages = 400
                     },
 
                     new Book //book 10
@@ -119,8 +137,46 @@ namespace Bookstore.Models
                         Author = "John Grisham",
                         Publisher = "Bantam",
                         ISBN = "978-0553393613",
-                        ClassOrCategory = "Fiction, Thrillers,",
-                        Price = 15.03F
+                        Classification = "Fiction",
+                        Category = "Thrillers",
+                        Price = 15.03F,
+                        NumPages = 642
+                    },
+
+                    new Book
+                    {
+                        Title = "The Ruins of Gorlan",
+                        Author = "John Flanagan",
+                        Publisher = "Random House",
+                        ISBN = "978-0142406632",
+                        Classification = "Fiction",
+                        Category = "Fantasy, Adventure",
+                        Price = 8.29F,
+                        NumPages = 265
+                    },
+
+                    new Book
+                    {
+                        Title = "Ready Player One",
+                        Author = "Ernest Cline",
+                        Publisher = "Crown Publishing Group",
+                        ISBN = "978-1524763282",
+                        Classification = "Fiction",
+                        Category = "Science Fiction, LitRPG",
+                        Price = 12.78F,
+                        NumPages = 374
+                    },
+
+                    new Book
+                    {
+                        Title = "Orphan X",
+                        Author = "Gregg Hurwitz",
+                        Publisher = "Minotaur Books",
+                        ISBN = "978-1250067845",
+                        Classification = "Fiction",
+                        Category = "Thriller",
+                        Price = 14.95F,
+                        NumPages = 368
                     }
                 );
 
