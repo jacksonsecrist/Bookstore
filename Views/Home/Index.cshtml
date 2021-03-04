@@ -5,11 +5,7 @@
 @model BookListViewModel
 
 <div>
-    <h1>The Book Store</h1>
-    <h5>by Jackson Secrist</h5>
-    <br />
-    <h3>Our Collection: <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn"
-     page-class-normal="btn-outline-dark" page-class-selected="btn-success" class="btn-group pull-right m-1" data-toggle="tooltip" data-placement="top" title="Click to Navigate Pages"></div></h3>
+    <h3>Our Collection: </h3>
     @foreach (Book book in Model.Books)
     {
         <div class="card border border-success">
@@ -34,5 +30,7 @@
         </div>
         <br />
     }
-    
+    <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn"
+         page-class-normal="btn-outline-dark" page-class-selected="btn-success" page-url-category="@Model.CurrentCategory" class="btn-group pull-right m-1"
+         data-toggle="tooltip" data-placement="top" title="Click to Navigate Pages"></div>
 </div>

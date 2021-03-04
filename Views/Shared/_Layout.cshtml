@@ -30,9 +30,18 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        <h1>The Book Store</h1>
+        <h5>by Jackson Secrist</h5>
+        <div class="row">
+            <div class="col-3">
+                <br /><br /><br />
+                <h6>Categories to Filter:</h6>
+                <vc:navigation-menu />
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
