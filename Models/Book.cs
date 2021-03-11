@@ -8,6 +8,7 @@ namespace Bookstore.Models
 {
     public class Book
     {
+        //properties
         [Key]
         [Required]
         public int BookID { get; set; }
@@ -32,7 +33,7 @@ namespace Bookstore.Models
         public string Category { get; set; }
 
         [Required]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
 
         [Required]
         public int NumPages { get; set; }

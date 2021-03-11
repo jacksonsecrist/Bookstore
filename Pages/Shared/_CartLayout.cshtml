@@ -6,7 +6,6 @@
     <title>@ViewData["Title"] - Bookstore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 <body>
     <header>
@@ -27,24 +26,14 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <vc:cart-summary />
-                </div>
             </div>
         </nav>
     </header>
     <div class="container">
         <h1>The Book Store</h1>
         <h5>by Jackson Secrist</h5>
-        <div class="row">
-            <div class="col-3">
-                <br /><br /><br />
-                <h6>Categories to Filter:</h6>
-                <vc:navigation-menu />
-            </div>
-            <div class="col-9">
-                @RenderBody()
-            </div>
+        <div class="">
+            @RenderBody()
         </div>
     </div>
 
